@@ -1,0 +1,81 @@
+.shoe-container {
+  max-width: 770px;
+}
+
+.shoe-card {
+  width: 50%;
+}
+
+.product-title {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 5%;
+}
+
+.price {
+  text-decoration: line-through;
+  color: #b0b7c3;
+  font-size: 14px;
+}
+
+.price-front {
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--primary-400);
+}
+
+.chose-color-card {
+  max-width: 72px;
+  padding-right: 8px;
+  text-align: center;
+}
+
+.size-row {
+  padding-right: 8px;
+}
+
+.size-card {
+  width: 167px;
+  text-align: center;
+  border: #dee2e6 1px solid;
+  border-radius: 4px;
+  padding: 12px 24px;
+  margin-bottom: 8px;
+}
+
+.feat-button-group button {
+  width: calc(50% - 2px);
+  border: #000000 1px solid;
+  border-radius: 4px;
+  padding: 12px 65.5px;
+  letter-spacing: 5%;
+}
+
+.material-border {
+  border-bottom: #dee2e6 1px solid;
+}
+
+.like-card-row {
+  width: 25%;
+}
+
+@media screen and (max-width: 768px) {
+  .feat-button-group button {
+    min-width: 295px;
+  }
+
+  .like-card-row {
+    width: 300px;
+  }
+
+  .d-flex.flex-md-nowrap.overflow-x-auto {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .like-card-row {
+    flex: 0 0 300px;
+  }
+}

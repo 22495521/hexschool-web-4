@@ -13,6 +13,7 @@
 .card {
   margin-bottom: 48px;
 }
+
 .card p:first-of-type {
   font-weight: 700;
   line-height: 1.2;
@@ -26,6 +27,6 @@
 @media screen and (max-width: 768px) {
   .card-row {
     width: 50%;
-    padding-left: 12px;
+    padding-left: 0px;
   }
 }
