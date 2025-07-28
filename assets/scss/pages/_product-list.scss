@@ -1,0 +1,31 @@
+.list-type {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-right: 16px;
+  margin-bottom: 20px;
+}
+
+.card-row {
+  width: 33.33333%;
+  padding-left: 24px;
+}
+
+.card {
+  margin-bottom: 48px;
+}
+.card p:first-of-type {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 4px;
+}
+
+.page {
+  padding: 8px 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .card-row {
+    width: 50%;
+    padding-left: 12px;
+  }
+}
