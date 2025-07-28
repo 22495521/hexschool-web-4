@@ -1,4 +1,21 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  width: 129px;
+  padding: 8px 12px;
+}
+
+.circle {
+  width: 8px;
+  height: 8px;
+  right: 11px;
+  top: 11px;
+  background-color: var(--primary-300);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.bi-person {
+  font-size: 24px;
+  padding: 12px;
 }
