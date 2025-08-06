@@ -10,7 +10,7 @@
   font-size: 32px;
   line-height: 1.2;
   font-weight: 700;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
 }
 
 .price {
@@ -45,11 +45,16 @@
 }
 
 .feat-button-group button {
-  width: calc(50% - 2px);
   border: #000000 1px solid;
   border-radius: 4px;
-  padding: 12px 65.5px;
-  letter-spacing: 5%;
+  padding: 12px 40px;
+  letter-spacing: 0.05em;
+}
+
+.feat-button-group {
+  i {
+    font-size: 20px;
+  }
 }
 
 .material-border {

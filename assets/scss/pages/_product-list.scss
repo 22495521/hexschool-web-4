@@ -24,6 +24,14 @@
   padding: 8px 15px;
 }
 
+.page:hover {
+  background-color: var(--neutral-100);
+}
+
+.page.page-select {
+  background-color: var(--primary-300);
+}
+
 @media screen and (max-width: 768px) {
   .card-row {
     width: 50%;
